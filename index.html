@@ -3,80 +3,193 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>WEBSTUDIO</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <!--ust alan-->
-    <header>
-      <a href="https://yanginhasan.github.io/goit-markup-hw-01/">WEBSTUDIO</a>
-      <nav>
-        <ul>
-          <li><a href="">Studio</a></li>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">Contects</a></li>
+    <header class="header">
+      <a href="" class="logo">WEBSTUDIO</a>
+
+      <nav class="navbar">
+        <ul class="navul">
+          <li class="navli"><a href="index.html">Studio</a></li>
+          <li class="navli"><a href="index.html">Portfolio</a></li>
+          <li class="navli"><a href="index.html">Contacts</a></li>
         </ul>
       </nav>
-      <address>
-        <p>info@devstudio.com</p>
-        <p>+11 (000) 111-11-11</p>
-      </address>
+      <div>
+        <address class="contactinfo">
+          <p>info@devstudio.com</p>
+          <p>+11 (000) 111-11-11</p>
+        </address>
+      </div>
     </header>
     <!--ust alan bitti-->
     <!--orta alan-->
     <main>
       <!--1.kısım-->
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+      <section class="section1">
+        <div class="h1baslik">
+          <h1 class="h1baslik">Effective Solutions for Your Business</h1>
+          <button type="button" class="orderbutton">Order Service</button>
+        </div>
       </section>
       <!--1.kısım bitti-->
       <!--2.kısım-->
-      <section>
-        <h3>Strategy</h3>
-        <p>
-          Our goal is to identify the business problem to walk away with the
-          perfect and creative solution.
-        </p>
-        <h3>Punctuality</h3>
-        <p>
-          Bring the key message to the brand's audience for the best price
-          within the shortest possible time.
-        </p>
-        <h3>Diligence</h3>
-        <p>
-          Research and confirm brands that present the strongest digital growth
-          opportunities and minimize risk.
-        </p>
-        <h3>Technologies</h3>
-        <p>
-          Design practice focused on digital experiences. We bring forth a deep
-          passion for problem-solving.
-        </p>
+      <section class="section1">
+        <div class="contentblock">
+          <h3>Strategy</h3>
+          <p>
+            Our goal is to identify the business problem to walk away with the
+            perfect and creative solution.
+          </p>
+        </div>
+        <div class="contentblock">
+          <h3>Punctuality</h3>
+          <p>
+            Bring the key message to the brand's audience for the best price
+            within the shortest possible time.
+          </p>
+        </div>
+        <div class="contentblock">
+          <h3>Diligence</h3>
+          <p>
+            Research and confirm brands that present the strongest digital
+            growth opportunities and minimize risk.
+          </p>
+        </div>
+
+        <div class="contentblock">
+          <h3>Technologies</h3>
+          <p>
+            Design practice focused on digital experiences. We bring forth a
+            deep passion for problem-solving.
+          </p>
+        </div>
       </section>
       <!--2.kısım bitti-->
       <!--3.kısım-->
-      <section>
+      <section class="section2">
         <h2>Our Team</h2>
-        <img src="./images/img-1.jpg" alt="Product Designer" width="264" />
-        <h3>Mark Guerrero</h3>
-        <p>Product Designer</p>
-        <img src="./images/img-2.jpg" alt="Frontend Developer" width="264" />
-        <h3>Tom Ford</h3>
-        <p>Frontend Developer</p>
-        <img src="./images/img-3.jpg" alt="Marketing" width="264" />
-        <h3>Camila Garcia</h3>
-        <p>Marketing</p>
-        <img src="./images/img-4.jpg" alt="UI Designer" width="264" />
-        <h3>Daniel Wilson</h3>
-        <p>UI Designer</p>
+        <ul class="teamcards">
+          <li>
+            <img src="./images/img-1.jpg" alt="Product Designer" width="264" />
+            <h3>Mark Guerrero</h3>
+            <p>Product Designer</p>
+          </li>
+
+          <li>
+            <img
+              src="./images/img-2.jpg"
+              alt="Frontend Developer"
+              width="264"
+            />
+            <h3>Tom Ford</h3>
+            <p>Frontend Developer</p>
+          </li>
+          <li>
+            <img src="./images/img-3.jpg" alt="Marketing" width="264" />
+            <h3>Camila Garcia</h3>
+            <p>Marketing</p>
+          </li>
+          <li>
+            <img src="./images/img-4.jpg" alt="UI Designer" width="264" />
+            <h3>Daniel Wilson</h3>
+            <p>UI Designer</p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="section3">
+        <h2 class="h2baslik">Our Portfolio</h2>
+        <div class="portfolio1">
+          <div>
+            <img
+              src="images/banking-app.jpg"
+              alt="portfolio1"
+              width="360"
+              height="300"
+            />
+            <h3>Banking App</h3>
+            <p>App</p>
+          </div>
+
+          <div>
+            <img
+              src="images/cashless-payment.jpg"
+              alt="portfolio2"
+              width="360"
+              height="300"
+            />
+            <h3>Cashless Payment</h3>
+            <p>Marketing</p>
+          </div>
+
+          <div>
+            <img
+              src="images/meditation-app.jpg"
+              alt="portfolio3"
+              width="360"
+              height="300"
+            />
+            <h3>Meditation App</h3>
+            <p>App</p>
+          </div>
+        </div>
+
+        <div class="portfolio2">
+          <div>
+            <img
+              src="images/taxi-service.jpg"
+              alt="portfolio4"
+              width="360"
+              height="300"
+            />
+            <h3>Taxi Service</h3>
+            <p>Marketing</p>
+          </div>
+
+          <div>
+            <img
+              src="images/screen-ılustrations.jpg"
+              alt="portfolio5"
+              width="360"
+              height="300"
+            />
+            <h3>Screen Illustrations</h3>
+            <p>Desing</p>
+          </div>
+
+          <div>
+            <img
+              src="images/online-courses.jpg"
+              alt="portfolio6"
+              width="360"
+              height="300"
+            />
+            <h3>Online Courses</h3>
+            <p>Marketing</p>
+          </div>
+        </div>
       </section>
       <!--3.kısım bitti-->
     </main>
     <!--orta alan bitti-->
     <!--alt alan-->
-    <footer>
-      <a href="https://yanginhasan.github.io/goit-markup-hw-01/">WEBSTUDIO</a>
+    <footer class="footer">
+      <a href="#" class="footerlogo">WEBSTUDIO</a>
       <p>
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
