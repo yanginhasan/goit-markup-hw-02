@@ -74,6 +74,10 @@ header nav .nav-list:focus {
   color: #fff;
 }
 
+.hero-image {
+  background-color: #2e2f42;
+}
+
 .order-button {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
