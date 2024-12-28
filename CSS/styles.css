@@ -86,7 +86,7 @@ header nav .nav-list:focus {
 }
 
 .order-button:hover,
-.hero-image-button:focus {
+.order-button:focus {
   background-color: ##404bbf;
 }
 
