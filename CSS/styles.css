@@ -78,7 +78,15 @@ header nav .nav-list:focus {
   background-color: #2e2f42;
 }
 
-.order-button {
+.hero-image-title {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+
+.hero-image-button {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -89,11 +97,10 @@ header nav .nav-list:focus {
   cursor: pointer;
 }
 
-.order-button:hover,
-.order-button:focus {
-  background-color: ##404bbf;
+.hero-image-button:hover,
+.hero-image-button:focus {
+  background-color: #404bbf;
 }
-
 .section-two {
   font-weight: 500;
   font-size: 20px;
