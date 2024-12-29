@@ -117,6 +117,10 @@ header nav .nav-list:focus {
   color: #2e2f42;
 }
 
+.team-item_example {
+  background-color: #ffffff;
+}
+
 .our-team-list {
   background-color: #ffffff;
 }
